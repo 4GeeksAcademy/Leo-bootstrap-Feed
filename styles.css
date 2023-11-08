@@ -1,0 +1,27 @@
+body{
+    color: #272c35;
+}
+
+
+.navbar{
+    background-color: lightgray;
+}
+
+
+.log-out{
+    color: #DD3B48;
+}
+
+.log-out:hover {
+    background-color: #DD3B48;
+    color: white;
+ }
+
+.posts-display{
+    text-align: center;
+    margin-top: 20px;
+ }
+
+.posts-display-item{
+    margin: 10px;  
+ }
