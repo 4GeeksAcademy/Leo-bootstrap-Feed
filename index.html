@@ -27,7 +27,7 @@
           <div class="d-flex">
             <button
               type="button"
-              class="btn btn-success me-3"
+              class="btn btn-primary me-3"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               data-bs-whatever="@getbootstrap"
@@ -83,7 +83,7 @@
                     >
                       Close
                     </button>
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="btn btn-primary">
                       Publish
                     </button>
                   </div>
@@ -115,20 +115,322 @@
           </div>
         </div>
       </nav>
-      <div class="posts-display">
-        <a href="#" class="small-posts"
-          ><i
-            class="fa-solid fa-table-cells posts-display-item"
-            style="color: #272c35"
-          ></i
-        ></a>
-        <a href="#" class="big-posts"
-          ><i
-            class="fa-regular fa-square posts-display-item"
-            style="color: #272c35"
-          ></i
-        ></a>
+
+      <!--BUTTONS GRID---->
+
+      <div class="main-containt">
+        <div class="buttons">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item small-content-btn" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                <i
+                  class="fa-solid fa-table-cells posts-display-item"
+                  style="color: #272c35"
+                ></i>
+              </button>
+            </li>
+            <li class="nav-item big-content-btn" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                <i
+                  class="fa-regular fa-square posts-display-item"
+                  style="color: #272c35"
+                ></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!--CONTENIDO PRINCIPALL---->
+
+        <div class="containt">
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div class="row">
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://phantom-marca.unidadeditorial.es/23b32a9cdc094cf50cbce2fa57c977cd/resize/828/f/jpg/assets/multimedia/imagenes/2022/12/05/16702399461500.jpg"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://images.myguide-cdn.com/marbella/companies/ocean-club-marbella/large/ocean-club-marbella-641741.jpg"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://deporteolimpico.net/wp-content/uploads/2023/05/9940_Foto.1612171340.jpg"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://static.independent.co.uk/2023/07/14/13/iStock-1333035210.jpg"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://media.cnn.com/api/v1/images/stellar/prod/spider-man-2-ps5-hands-on-lead-cnnu.jpg?c=16x9&q=h_720,w_1280,c_fill"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://files.worldwildlife.org/wwfcmsprod/images/elephants_at_water_hole_WW2122503_Anup_Shah/hero_small/52dp251ljx_Medium_WW2122503.jpg"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_245773270v2.jpg"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://ik.imagekit.io/awwybhhmo/satellite_images/japanese/beyondmenu/hero/16.jpg?tr=w-3840,q-50"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+                <div class="col-4 mt-4">
+                  <img
+                    src="https://dims.apnews.com/dims4/default/4e65070/2147483647/strip/false/crop/5710x3806+0+0/resize/1486x990!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcb%2Fcc%2F7da7179538a5bd5b3492d0693445%2Fb7dac54f771b49a28832c34417bec7de"
+                    alt=""
+                    class="big-images"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <div class="big-posts">
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>Cristiano Ronado goes to Al Nassr!!</strong></p>
+                    <p>07/18/2022</p>
+                  </div>
+                  <img
+                    src="https://phantom-marca.unidadeditorial.es/23b32a9cdc094cf50cbce2fa57c977cd/resize/828/f/jpg/assets/multimedia/imagenes/2022/12/05/16702399461500.jpg"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 400 Likes</strong>
+                    </p>
+                    <p>Everybody seems to be very happy with him.</p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>I Love the view of my pool!!</strong></p>
+                    <p>11/08/2022</p>
+                  </div>
+                  <img
+                    src="https://images.myguide-cdn.com/marbella/companies/ocean-club-marbella/large/ocean-club-marbella-641741.jpg"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 1213 Likes</strong>
+                    </p>
+                    <p>
+                      I like to come here with my friends to spend our free
+                      time.
+                    </p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>Beach Tenis</strong></p>
+                    <p>01/16/2023</p>
+                  </div>
+                  <img
+                    src="https://deporteolimpico.net/wp-content/uploads/2023/05/9940_Foto.1612171340.jpg"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 255 Likes</strong>
+                    </p>
+                    <p>Me and my friends playing some Beach Tenis!!</p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>Dubai</strong></p>
+                    <p>02/10/2023</p>
+                  </div>
+                  <img
+                    src="https://static.independent.co.uk/2023/07/14/13/iStock-1333035210.jpg"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 2111 Likes</strong>
+                    </p>
+                    <p>The Best Picture I took during my vacations in Dubai.</p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>Spiderman PS5 Version</strong></p>
+                    <p>03/20/2023</p>
+                  </div>
+                  <img
+                    src="https://media.cnn.com/api/v1/images/stellar/prod/spider-man-2-ps5-hands-on-lead-cnnu.jpg?c=16x9&q=h_720,w_1280,c_fill"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 862 Likes</strong>
+                    </p>
+                    <p>
+                      I love this new PS5 version . I hope at least to get the
+                      Control!
+                    </p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>Elephants in Africa</strong></p>
+                    <p>04/18/2023</p>
+                  </div>
+                  <img
+                    src="https://files.worldwildlife.org/wwfcmsprod/images/elephants_at_water_hole_WW2122503_Anup_Shah/hero_small/52dp251ljx_Medium_WW2122503.jpg"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 999 Likes</strong>
+                    </p>
+                    <p>I was shocked about how big these animals were!!</p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>China</strong></p>
+                    <p>06/29/2023</p>
+                  </div>
+                  <img
+                    src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_245773270v2.jpg"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 1548 Likes</strong>
+                    </p>
+                    <p>
+                      China was a beautiful country, I loved their culture and I
+                      learned a lot of them
+                    </p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>Sushi Night</strong></p>
+                    <p>08/02/2023</p>
+                  </div>
+                  <img
+                    src="https://ik.imagekit.io/awwybhhmo/satellite_images/japanese/beyondmenu/hero/16.jpg?tr=w-3840,q-50"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 2222 Likes</strong>
+                    </p>
+                    <p>
+                      I love sushi , I have to eat them at least once a week,
+                      now you all know it.
+                    </p>
+                  </div>
+                </div>
+                <div class="post">
+                  <div class="post-header">
+                    <p><strong>A Grand Slam</strong></p>
+                    <p>10/05/2023</p>
+                  </div>
+                  <img
+                    src="https://dims.apnews.com/dims4/default/4e65070/2147483647/strip/false/crop/5710x3806+0+0/resize/1486x990!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcb%2Fcc%2F7da7179538a5bd5b3492d0693445%2Fb7dac54f771b49a28832c34417bec7de"
+                    alt=""
+                    class="post-img"
+                  />
+                  <div class="post-description">
+                    <p>
+                      <i class="fa-regular fa-heart"></i
+                      ><strong> 900 Likes</strong>
+                    </p>
+                    <p>Jose Altuve was the Best player in this World Series</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <footer>
+        <p>
+          Made with love by &copy; Leonardo Rodriguez
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </p>
+      </footer>
     </div>
 
     <script

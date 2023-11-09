@@ -17,11 +17,61 @@ body{
     color: white;
  }
 
-.posts-display{
-    text-align: center;
-    margin-top: 20px;
+
+ .nav-pills{
+    position: absolute;
+    top: 10%;
+    right: 45%;
  }
 
-.posts-display-item{
-    margin: 10px;  
+.small-content-btn{
+    margin-right: 10px;
+}
+
+
+.posts-display{
+    text-align: center;
+    margin-top: 30px;
  }
+
+.main-containt{
+    margin-top: 50px;
+    text-align: center;
+ }
+
+.big-images{
+    width: 100%;
+    height: 100%;
+}
+
+.big-posts{
+    margin-top: 80px;
+}
+
+.post{
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.post-description{
+    text-align: start;
+    padding: 0;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
